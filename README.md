@@ -36,7 +36,7 @@ client → FastAPI proxy → LLM API (Gemini)
 | `evals.py` | Deterministic checks and the LLM judge |
 | `dashboard.py` | Streamlit console + dashboard |
 | `backfill.py` | Scores existing traces that have no evals |
-| `list_models.py` | Lists model names available to your API key |
+| `sample.py` | Lists model names available to your API key |
 
 ## Monitor vs gate
 
