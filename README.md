@@ -135,6 +135,8 @@ Dashboard at `localhost:8501`, proxy at `localhost:8000`.
 curl -X POST localhost:8000/chat -H "Content-Type: application/json" \
   -d '{"prompt": "What is a write-ahead log?", "mode": "monitor"}'
 ```
+<img width="2766" height="1566" alt="image" src="https://github.com/user-attachments/assets/f731f427-e335-4c90-a603-1aa7db452a17" />
+
 <img width="1372" height="889" alt="image" src="https://github.com/user-attachments/assets/dce7af9c-f8d7-4245-b9ab-44130ad7956d" />
 
 ## Known limitations
