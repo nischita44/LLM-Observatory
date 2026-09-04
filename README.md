@@ -114,11 +114,11 @@ The harness recorded 404s (bad model name — client error, never retryable), 50
 # clone, install
 pip install fastapi uvicorn google-genai streamlit pandas requests
 
-# set your key
-export GEMINI_API_KEY="..."
+# get a key from aistudio.google.com, then:
+export GEMINI_API_KEY="your-key-here"
 
 # check which models your key can call
-python list_models.py
+python sample.py
 
 # run (two terminals)
 uvicorn main:app --reload
